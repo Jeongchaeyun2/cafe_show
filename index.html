@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>부산 카페 쇼</title>
+</head>
+<!-- favicon -->
+<link rel="shortcut icon" href="images/common/favicon.png" type="image/x-icon">
+
+<!-- font -->
+<link rel="stylesheet" href="css/font.css">
+
+<!-- css -->
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<link rel="stylesheet" href="css/main.css">
+
+<!-- js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> <!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script> <!-- swiper -->
+<script defer src="js/common.js"></script>
+<script defer src="js/main.js"></script>
+
+<body>
+  <div class="wrap">
+
+    <header id="header">
+      <div class="inner">
+        <a href="index.html"><img class="home" src="images/common/home.png" alt="홈으로 가기"></a>
+        <nav>
+          <ul class="gnb">
+            <li><a href="# ">소개</a>
+              <ul class="depth2">
+                <li><a href="#">전시회개요</a></li>
+                <li><a href="#">부스배치도</a></li>
+                <li><a href="#">참가업체 리스트</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">참가업체</a>
+              <ul class="depth2">
+                <li><a href="#">참가신청 안내</a></li>
+                <li><a href="#">참가업체 자료실</a></li>
+                <li><a href="#">온라인 참가신청</a></li>
+                <li><a href="#">광고 프로그램</a></li>
+                <li><a href="#">결과보고</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">참관객</a>
+              <ul class="depth2">
+                <li><a href="#">관람안내</a></li>
+                <li><a href="#">참가등록 / 확인</a></li>
+                <li><a href="#">교통 / 주차안내</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">프로그램</a>
+              <ul class="depth2">
+                <li><a href="#">주최사 이벤트</a></li>
+                <li><a href="#">MARINE BEANS</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">커뮤니티</a>
+              <ul class="depth2">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">보도자료</a></li>
+                <li><a href="#">갤러리</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#">SNS</a>
+              <ul class="depth2">
+                <li><a href="#">FACEBOOK</a></li>
+                <li><a href="#">INSTAGRAM</a></li>
+                <li><a href="#">YOUTUBE</a></li>
+                <li><a href="#">KAKAOTALK</a></li>
+              </ul>
+            </li>
+
+          </ul><!-- gnb -->
+
+          <div class="mgnb-wrap">
+
+            <ul class="mgnb">
+              <li><a href="# ">소개</a>
+                <ul class="mdepth2">
+                  <li><a href="#">전시회개요</a></li>
+                  <li><a href="#">부스배치도</a></li>
+                  <li><a href="#">참가업체 리스트</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#">참가업체</a>
+                <ul class="mdepth2">
+                  <li><a href="#">참가신청 안내</a></li>
+                  <li><a href="#">참가업체 자료실</a></li>
+                  <li><a href="#">온라인 참가신청</a></li>
+                  <li><a href="#">광고 프로그램</a></li>
+                  <li><a href="#">결과보고</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#">참관객</a>
+                <ul class="mdepth2">
+                  <li><a href="#">관람안내</a></li>
+                  <li><a href="#">참가등록 / 확인</a></li>
+                  <li><a href="#">교통 / 주차안내</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#">프로그램</a>
+                <ul class="mdepth2">
+                  <li><a href="#">주최사 이벤트</a></li>
+                  <li><a href="#">MARINE BEANS</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#">커뮤니티</a>
+                <ul class="mdepth2">
+                  <li><a href="#">공지사항</a></li>
+                  <li><a href="#">보도자료</a></li>
+                  <li><a href="#">갤러리</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#">SNS</a>
+                <ul class="mdepth2">
+                  <li><a href="#">FACEBOOK</a></li>
+                  <li><a href="#">INSTAGRAM</a></li>
+                  <li><a href="#">YOUTUBE</a></li>
+                  <li><a href="#">KAKAOTALK</a></li>
+                </ul>
+              </li>
+
+            </ul><!-- gnb -->
+            <button class="mgnb-close">메뉴닫기</button>
+          </div>
+
+        </nav>
+
+
+
+        <div class="util">
+          <div class="login">
+            <a href="#"><img src="images/common/ico_login.png" alt="로그인"></a>
+          </div>
+
+          <div class="search">
+            <a href="#"><img src="images/common/ico_search.png" alt="검색"></a>
+          </div>
+
+          <button class="ham">메뉴보기</button>
+
+        </div>
+
+      </div>
+
+      <div class="depth2_bg"></div>
+    </header>
+
+    <main id="main">
+
+      <section class="banner">
+        <a class="pc_banner" href="#"><img src="images/main/main_banner.jpg" alt="카페 쇼 이미지"></a>
+        <a class="mobile_banner" href="#"><img src="images/main/main_banner_mobile.jpg" alt="카페 쇼 이미지"></a>
+        <img class="logo" src="images/common/logo.png" alt="2026 부산 카페쇼">
+        <h1>2026 부산 카페 쇼 <br> <span>(상반기)</span></h1>
+        <div class="info">
+          <p class="when">2026.02.06~02.08</p>
+          <p class="where">장소 : <span>BEXCO</span></p>
+          <a href="#"><img src="images/main/arrow.png" alt="더 알아보기"></a>
+        </div>
+      </section>
+
+      <div class="participation">
+
+        <div class="inner">
+          <div class="participation_ico">
+            <a class="prt1" href="#"><img src="images/main/participate1.png" alt="참가신청"><span>참가신청</span>
+            </a>
+            <a class="prt2" href="#"><img src="images/main/participate2.png" alt="참가안내"><span>참가안내</span></a>
+            <a class="prt3" href="#"><img src="images/main/participate3.png" alt="관람안내"><span>관람안내</span></a>
+            <a class="prt4" href="#"><img src="images/main/participate4.png" alt="사전등록"><span>사전등록</span></a>
+          </div>
+
+        </div>
+
+      </div><!-- participation -->
+
+      <div class="participating_company">
+
+        <div class="inner">
+          <div class="btn_more">
+            <h2>참가 업체</h2>
+            <button>더보기 +</button>
+          </div><!-- btn_more -->
+
+          <div class="company_contents">
+            <p>원두, 베이스</p>
+            <div class="companys">
+              <div class="company aile">
+                <a href="#"><img src="images/main/company1.png" alt="고래커피"></a>
+                <div class="company_txt">
+                  <ul>
+                    <li class="company_name">고래커피</li>
+                    <li>원두 시음 (달콤 소프트)</li>
+                    <li>원두 구매</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="company sell_bean">
+                <a href="#"><img src="images/main/company2.png" alt="셀더빈"></a>
+                <div class="company_txt">
+                  <ul>
+                    <li class="company_name">셀더빈</li>
+                    <li>원두 로스팅 체험</li>
+                    <li>음료 제조, 시음</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="company baba">
+                <a href="#"><img src="images/main/company3.png" alt="커피바바"></a>
+                <div class="company_txt">
+                  <ul>
+                    <li class="company_name">커피바바</li>
+                    <li>시럽, 베이스 / 카페 용품 구매</li>
+                    <li>시럽, 베이스 활용 음료 제조</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="company loft">
+                <a href="#"><img src="images/main/company4.png" alt="로프트샵"></a>
+                <div class="company_txt">
+                  <ul>
+                    <li class="company_name">로프트샵</li>
+                    <li>커피머신 구매 / 렌탈</li>
+                    <li>카페 용품, 주방 용품 구매</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div><!-- companys -->
+
+            <p>카페</p>
+
+            <div class="companys">
+              <div class="company month">
+                <a href="#"><img src="images/main/company5.png" alt="먼스 커피 바"></a>
+                <div class="company_txt">
+                  <ul>
+                    <li class="company_name">먼스 커피 바</li>
+                    <li>필터 커피 체험 / 시음</li>
+                    <li>음료 / 원두 구매</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="company owk">
+                <a href="#"><img src="images/main/company6.png" alt="오우커 커피 바"></a>
+                <div class="company_txt">
+                  <ul>
+                    <li class="company_name">오우커 커피 바</li>
+                    <li>핸드드립 체험 / 시음</li>
+                    <li>음료 제조 및 구매</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="company jella">
+                <a href="#"><img src="images/main/company7.png" alt="젤라떼리아 사우스 브룩"></a>
+                <div class="company_txt">
+                  <ul>
+                    <li class="company_name">젤라떼리아 사우스 브룩</li>
+                    <li>젤라또 맛보기</li>
+                    <li>최초 공개 메뉴 시음</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="company miffy">
+                <a href="#"><img src="images/main/company8.png" alt="미피 카페"></a>
+                <div class="company_txt">
+                  <ul>
+                    <li class="company_name">미피 카페</li>
+                    <li>캐릭터 굿즈 구매</li>
+                    <li>신메뉴 아이디어 공모전</li>
+                  </ul>
+                </div>
+              </div>
+
+            </div><!-- companys -->
+
+            <p>베이커리</p>
+
+            <div class="companys">
+              <div class="company delicate">
+                <a href="#"><img src="images/main/company9.png" alt="델리케이트"></a>
+                <div class="company_txt">
+                  <ul>
+                    <li class="company_name">델리케이트</li>
+                    <li>마카롱 제조 체험</li>
+                    <li>다양한 디저트 시음</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="company cafe_may">
+                <a href="#"><img src="images/main/company10.png" alt="카페 오월생"></a>
+                <div class="company_txt">
+                  <ul>
+                    <li class="company_name">카페 오월생</li>
+                    <li>케이크 제조 체험</li>
+                    <li>커피, 음료, 디저트 구매</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="company oven">
+                <a href="#"><img src="images/main/company11.png" alt="오븐의 온도"></a>
+                <div class="company_txt">
+                  <ul>
+                    <li class="company_name">오븐의 온도</li>
+                    <li>쿠키 베이킹 체험</li>
+                    <li>쿠키 및 베이커리 구매</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="company inthe">
+                <a href="#"><img src="images/main/company12.png" alt="인더매스 시즌스"></a>
+                <div class="company_txt">
+                  <ul>
+                    <li class="company_name">인더매스 시즌스</li>
+                    <li>베이커리, 케이크 등 구매</li>
+                    <li>신메뉴 디저트 맛보기 </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div><!-- companys -->
+          </div> <!-- company_contents -->
+
+          <div class="company_slide">
+            <div class="swiper company_list">
+              <div class="swiper-wrapper">
+                <div class="company aile swiper-slide">
+                  <a href="#"><img src="images/main/company1.png" alt="고래커피"></a>
+                  <div class="company_txt">
+                    <ul>
+                      <li class="company_name">고래커피</li>
+                      <li>원두 시음 (달콤 소프트)</li>
+                      <li>원두 구매</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="company sell_bean swiper-slide">
+                  <a href="#"><img src="images/main/company2.png" alt="셀더빈"></a>
+                  <div class="company_txt">
+                    <ul>
+                      <li class="company_name">셀더빈</li>
+                      <li>원두 로스팅 체험</li>
+                      <li>음료 제조, 시음</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="company baba swiper-slide">
+                  <a href="#"><img src="images/main/company3.png" alt="커피바바"></a>
+                  <div class="company_txt">
+                    <ul>
+                      <li class="company_name">커피바바</li>
+                      <li>시럽, 베이스 / 카페 용품 구매</li>
+                      <li>시럽, 베이스 활용 음료 제조</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="company loft swiper-slide">
+                  <a href="#"><img src="images/main/company4.png" alt="로프트샵"></a>
+                  <div class="company_txt">
+                    <ul>
+                      <li class="company_name">로프트샵</li>
+                      <li>커피머신 구매 / 렌탈</li>
+                      <li>카페 용품, 주방 용품 구매</li>
+                    </ul>
+                  </div>
+                </div>
+
+
+                <div class="company month swiper-slide">
+                  <a href="#"><img src="images/main/company5.png" alt="먼스 커피 바"></a>
+                  <div class="company_txt">
+                    <ul>
+                      <li class="company_name">먼스 커피 바</li>
+                      <li>필터 커피 체험 / 시음</li>
+                      <li>음료 / 원두 구매</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="company owk swiper-slide">
+                  <a href="#"><img src="images/main/company6.png" alt="오우커 커피 바"></a>
+                  <div class="company_txt">
+                    <ul>
+                      <li class="company_name">오우커 커피 바</li>
+                      <li>핸드드립 체험 / 시음</li>
+                      <li>음료 제조 및 구매</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="company jella swiper-slide">
+                  <a href="#"><img src="images/main/company7.png" alt="젤라떼리아 사우스 브룩"></a>
+                  <div class="company_txt">
+                    <ul>
+                      <li class="company_name">젤라떼리아 사우스 브룩</li>
+                      <li>젤라또 맛보기</li>
+                      <li>최초 공개 메뉴 시음</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="company miffy swiper-slide">
+                  <a href="#"><img src="images/main/company8.png" alt="미피 카페"></a>
+                  <div class="company_txt">
+                    <ul>
+                      <li class="company_name">미피 카페</li>
+                      <li>캐릭터 굿즈 구매</li>
+                      <li>신메뉴 아이디어 공모전</li>
+                    </ul>
+                  </div>
+                </div>
+
+
+                <div class="company delicate swiper-slide">
+                  <a href="#"><img src="images/main/company9.png" alt="델리케이트"></a>
+                  <div class="company_txt">
+                    <ul>
+                      <li class="company_name">델리케이트</li>
+                      <li>마카롱 제조 체험</li>
+                      <li>다양한 디저트 시음</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="company cafe_may swiper-slide">
+                  <a href="#"><img src="images/main/company10.png" alt="카페 오월생"></a>
+                  <div class="company_txt">
+                    <ul>
+                      <li class="company_name">카페 오월생</li>
+                      <li>케이크 제조 체험</li>
+                      <li>커피, 음료, 디저트 구매</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="company oven swiper-slide">
+                  <a href="#"><img src="images/main/company11.png" alt="오븐의 온도"></a>
+                  <div class="company_txt">
+                    <ul>
+                      <li class="company_name">오븐의 온도</li>
+                      <li>쿠키 베이킹 체험</li>
+                      <li>쿠키 및 베이커리 구매</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="company inthe swiper-slide">
+                  <a href="#"><img src="images/main/company12.png" alt="인더매스 시즌스"></a>
+                  <div class="company_txt">
+                    <ul>
+                      <li class="company_name">인더매스 시즌스</li>
+                      <li>베이커리, 케이크 등 구매</li>
+                      <li>신메뉴 디저트 맛보기 </li>
+                    </ul>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div><!-- inner -->
+
+      </div><!-- participating_company -->
+
+      <div class="reserve_banner">
+        <a href="#"><img src="images/main/reserve_banner.jpg" alt="예약 혜택 배너"></a>
+      </div>
+
+      <div class="Exhibit_item">
+        <div class="inner">
+          <h2>전시품목</h2>
+
+          <div class="Exhibit_info">
+
+            <div class="Exhibit_img">
+              <img src="images/main/stamp_coupon.jpg" alt="스탬프쿠폰">
+            </div>
+
+            <div class="Exhibit_item1">
+              <div class="item">
+                <img src="images/main/Exhibit_item1.png" alt="원두">
+                <p class="bean">원두, 생두, 드립백, 캡슐 커피 등</p>
+              </div>
+
+              <div class="item">
+                <img src="images/main/Exhibit_item2.png" alt="머신">
+                <p class="machine">커피 관련 머신, 제과 제빵 머신, 제빙기,
+                  쇼케이스, 냉장, 냉동고, 정수 필터,
+                  기타 카페 장비 등</p>
+              </div>
+
+              <div class="item">
+                <img src="images/main/Exhibit_item3.png" alt="홈카페">
+                <p class="home_cafe">커피 추출 기구, 홈 카페 용품,
+                  바리스타 용품, 홈 베이킹 재료/장비 등</p>
+              </div>
+
+              <div class="item">
+                <img src="images/main/Exhibit_item4.png" alt="베이커리">
+                <p class="bake">카페/베이커리 프랜차이즈, 카페 창업 아이템, 카페 인테리어, 카페 가구 및 소품 등</p>
+              </div>
+
+            </div> <!-- Exhibit_item1 -->
+
+            <div class="Exhibit_item2">
+
+              <div class="item space">
+                <img src="images/main/Exhibit_item5.png" alt="패키징">
+                <p class="pack">친환경 패키징, 포장 관련 제품 등</p>
+              </div>
+
+              <div class="item">
+                <img src="images/main/Exhibit_item6.png" alt="베이커리">
+                <p class="desert">디저트, 베이커리, 마카롱, 젤라또,
+                  아이스크림, 베이커리 원부재료 등 </p>
+              </div>
+
+              <div class="item">
+                <img src="images/main/Exhibit_item7.png" alt="드링크">
+                <p class="drink">음료, 시럽 및 원부재료, 청, 에이드,
+                  주스, 탄산음료, 사케, 와인, 맥주,
+                  전통주, 해외주류 등</p>
+              </div>
+
+              <div class="item">
+                <img src="images/main/Exhibit_item8.png" alt="티">
+                <p class="tea">홍차, 녹차, 전통차 및 ,TEA 관련 제품 등</p>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- inner -->
+      </div><!-- Exhibit_item -->
+
+      <div class="event">
+        <div class="inner">
+          <h2>EVENT</h2>
+
+          <div class="events">
+            <div class="On-site_event">
+              <h3>현장 이벤트</h3>
+              <a href="#"><img src="images/main/eventbanner01.jpg" alt="현장 이벤트"></a>
+            </div> <!-- site_event -->
+
+            <div class="pre-event">
+              <h3>사전 이벤트</h3>
+              <a href="#"><img src="images/main/eventbanner02.jpg" alt="사전 이벤트"></a>
+            </div>
+          </div><!-- events -->
+
+        </div> <!-- inner -->
+      </div> <!-- event -->
+
+      <div class="notice">
+        <div class="inner">
+          <h2>공지사항</h2>
+
+          <div class="notice_txt">
+
+            <ul class="notice_01">
+              <li><a href="#"><span class="left">2026년 29회 자원봉사자 참가 신청 확인</span><span
+                    class="right">2026.02.06</span></a></li>
+              <li><a href="#"><span class="left">스탬프 투어 체험 부스 안내</span><span class="right">2026.02.02</span></a></li>
+            </ul>
+
+            <ul class="notice_02">
+              <li><a href="#"><span class="left">2026 부산 카페 행사 분실물 안내</span><span class="right">2026.02.06</span></a>
+              </li>
+              <li><a href="#"><span class="left">2026 부산 카페쇼 서포터즈 모집 공고</span><span class="right">2026.01.30</span></a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div> <!-- inner -->
+      </div> <!-- notice -->
+
+      <div class="directions">
+        <div class="inner">
+          <h2>오시는 길</h2>
+
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.5653329485067!2d129.13216242576496!3d35.16745967275757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x356892bf02a5dfe1%3A0xb36570e65bbad549!2z67Kh7Iqk7L2U!5e0!3m2!1sko!2skr!4v1736921742547!5m2!1sko!2skr"></iframe>
+
+            <div class="direction">
+
+              <div class="location">
+                <img src="images/main/directions1.png" alt="위치">
+                <p>부산 해운대구 APEC로 55</p>
+              </div>
+
+              <div class="subway">
+                <img src="images/main/directions_subway.png" alt="지하철">
+                <p>2호선 센텀시티역 1번 출구에서 155m</p>
+              </div>
+
+            </div> <!-- direction -->
+          </div><!-- map -->
+
+        </div><!-- inner -->
+      </div><!-- directions -->
+
+      <div class="sns">
+        <div class="inner">
+          <a href="#"><img src="images/main/sns_facebook.png " alt="페이스북"><span>facebook</span></a>
+          <a href="#"><img src="images/main/sns_instagram.png" alt="인스타그램"><span>instagram</span></a>
+          <a class="youtube" href="#"><img src="images/main/sns_youtube.png" alt="유튜브"><span>youtube</span></a>
+          <a href="#"><img src="images/main/sns_kakao.png" alt="카카오톡"><span>kakaotalk</span></a>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer">
+      <div class="inner">
+        <div class="footer_top">
+          <ul class="footer_link">
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">이용약관</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_middle">
+          <p>(주)민트제이</p>
+          <p>대표 : 정채윤</p>
+          <p>부산 해운대구 센텀동로 41(우동) 911호</p>
+          <p>고객센터 : 051-720-2653</p>
+          <p>사업자등록번호 : 210-88-94451</p>
+          <p>FAX : 851-6592-8544</p>
+        </div>
+
+        <div class="footer_bottom">
+          <p class="copy">Copyright&copy;(주)민트제이.All rights reserved.</p>
+          <p>개인정보 처리담당자 : 박민지 팀장</p>
+          <p>개인정보 담당자 연락처 : 051-720-2653</p>
+        </div>
+
+      </div> <!-- inner -->
+
+      <div class="footer_ico">
+        <a class="gotop" href="#"><img src="images/common/gotop.png" alt="맨 위로 가기"></a>
+      </div>
+
+    </footer>
+
+  </div><!-- wrap -->
+</body>
+
+</html>
